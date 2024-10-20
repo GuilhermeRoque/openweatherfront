@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-background {
+  background: linear-gradient(to bottom right, #a2c2e5, #e6f7ff); /* Soft gradient */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.table-wrapper {
+  max-height: 500px;
+  border: 2px solid #ccc; /* Outer border */
+
+}
+
+.my-td {
+  border: 1px solid #ccc; /* Cell borders */
+}
+
+.my-th {
+  background: white;
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  border: 1px solid #ccc
+}
+
+.my-table {
+  margin-bottom: 0px !important;
+}
